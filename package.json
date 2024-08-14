@@ -5,7 +5,8 @@
   "license": "MIT",
   "author": "Viet Nam Nguyen",
   "scripts": {
-    "format": "prettier --write **/*.{js,ts,jsx,tsx,json}"
+    "lint": "eslint .",
+    "format": "prettier --write **/*.{js,ts,jsx,tsx}"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
