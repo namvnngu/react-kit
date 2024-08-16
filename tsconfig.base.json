@@ -1,28 +1,15 @@
 {
-  "include": [
-    "packages"
-  ],
   "compilerOptions": {
     "esModuleInterop": true,
     "skipLibCheck": true,
     "target": "es2022",
-    "allowJs": false,
+    "allowJs": true,
     "resolveJsonModule": true,
     "moduleDetection": "force",
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
     "strict": true,
     "noUncheckedIndexedAccess": true,
-    "noImplicitOverride": true,
-    "module": "preserve",
-    "noEmit": true,
-    "lib": [
-      "es2022",
-      "dom",
-      "dom.iterable"
-    ],
-    "baseUrl": ".",
-    "jsx": "preserve",
-    "paths": {}
+    "noImplicitOverride": true
   }
 }
