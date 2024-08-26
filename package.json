@@ -18,7 +18,9 @@
     "dev": "pnpm -r --parallel run dev",
     "build": "pnpm -r --parallel run build",
     "typecheck": "tsc --skipLibCheck --noEmit",
-    "test": "vitest",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage",
     "clean": "./scripts/clean.sh",
     "storybook": "./scripts/storybook.sh",
@@ -26,6 +28,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
+    "@vitest/ui": "^2.0.5",
     "typescript": "^5.5.4",
     "vitest": "^2.0.5"
   },
